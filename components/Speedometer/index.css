@@ -1,0 +1,48 @@
+.speedometer{
+  background-color:black;
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+img{
+  height:7rem;
+  width:17rem;
+}
+
+h1{
+  color:white;
+  font-size:3rem;
+}
+
+p{
+  color:white;
+  font-size:2rem;
+}
+
+.buttons{
+  display:flex;
+  gap:2rem;
+}
+
+.btn1{
+  background-color:lightgreen;
+  color:green;
+  height:2rem;
+  width:6rem;
+  border:2px dashed green ;
+  border-radius:1rem;
+}
+
+.btn2{
+  background-color:red;
+  color:white;
+  height:2rem;
+  width:6rem;
+  border:2px dashed white ;
+  border-radius:1rem;
+  font-weight:500;
+}
